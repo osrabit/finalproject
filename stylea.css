@@ -1,0 +1,190 @@
+/*
+* Default styles
+*/
+@media screen {
+
+html { 
+	background-color:#bda;
+	}
+	
+body {
+	background-color:#fff;
+	opacity: 0.6;
+	margin-left:auto;
+	margin-right:auto;
+	}
+
+header {
+	background-color:#71e;
+	opacity:0.9;
+	text-align:center;
+	border-style:solid;
+	border-width:1px;
+	margin-bottom: 1em;
+}
+
+nav {
+	float:left;
+	margin:1em 1em 1em 1em;
+
+
+}
+
+a {
+	background-color:#1ae;
+	color:#ce1;
+	font-family:arial, helvetica, sans-serif;
+	text-decoration:none;
+	border-style:solid;
+	border-width:1px;
+	border-radius:10px;
+	border-color:#000;
+	padding-left:1em;
+	padding-right:1em;
+}
+
+img {
+	padding: 1em;
+}
+
+p{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:.83em;
+	padding:1em;
+}
+
+p:last-of-type {
+	margin:0;
+	padding:0;
+}
+
+h1 {
+	font-family: 'Sniglet', cursive;
+	color:#e71;
+	font-size:1.17em;
+	font-size:1.5em;
+}
+
+h2{
+	font-family: 'Sniglet', cursive;
+	color:#71e;
+	padding:1em;
+}
+
+h3{
+	font-family: 'Sniglet', cursive;
+	color:#71e;
+	font-size:1em;
+	padding:1em;
+}
+
+blockquote {
+	text-align:center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-style:italic;
+}
+
+ul {
+	padding:0px;
+	margin:0px;
+	list-style-type:none;	
+}
+
+ul li {
+	margin:1em 1em 1em 1em;
+}
+
+
+ol li {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:.83em;
+}
+
+footer {
+	text-align:right;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+}
+
+/*
+* 300px and up
+*/
+@media screen and (min-width: 300px) {
+
+body {
+	width:100%;
+}
+
+h1 {
+	font-size:1.17em;
+}
+
+h2 { 
+	font-size:1em;
+}
+
+h3 {
+	font-size:.83em;
+}
+
+p {
+	font-size:.75em;
+}
+
+li {
+	font-size:.75em;
+}
+
+}
+
+/*
+* 600px and up, the default setting
+*/
+@media screen and (min-width: 600px) {
+
+img {
+	float:left;
+}
+
+}
+
+
+/*
+* 768px and up
+*/
+@media screen and (min-width: 768px) {
+
+body {
+	width:90%;
+}
+
+}
+
+
+/*
+* 960px and up
+*/
+@media screen and (min-width: 960px) {
+
+body {
+	width:864px;
+}
+
+h1 {
+	font-size:2em;
+}
+
+h2 {
+	font-size:1.5em;
+}
+
+h3 {
+	font-size:1.17em;
+}
+
+p {
+	font-size:1.0em;
+}
+
+}
